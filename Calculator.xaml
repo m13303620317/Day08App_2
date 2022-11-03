@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="Day08App.Calculator"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Day08App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock Text="The first number:" Margin="92,92,-92,-92" />
+        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="1040" Margin="217,85,0,0"/>
+        <TextBlock Text="The second number:" Margin="71,176,-71,-176" />
+        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="1040" Margin="217,169,0,0"/>
+        <TextBlock Name="Result" Text="Result: " Margin="157,263,-157,-263" />
+        <Button Content="Add" Margin="270,360,0,0" VerticalAlignment="Top" Width="905"/>
+        <Button Content="Subtract" Margin="270,413,0,0" VerticalAlignment="Top" Width="905"/>
+        <Button Content="Multiply" Margin="270,468,0,0" Width="905" VerticalAlignment="Top"/>
+        <Button Content="Divide" Margin="270,523,0,0" VerticalAlignment="Top" Width="905"/>
+        <Button Content="Radication" Margin="270,582,0,0" VerticalAlignment="Top" Width="905"/>
+        <Button Content="Power" Margin="270,642,0,0" VerticalAlignment="Top" Width="905"/>
+    </Grid>
+</Page>
